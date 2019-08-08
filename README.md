@@ -1,11 +1,12 @@
-#refactoring-gr
+# refactoring-gr
 
 This is taken from the original gilded rose coding and refactoring exercise. Below is the original description of the gilded rose problem.
 
+We recommend you start out writing specs for existing functionality, then restructure the existing code. Finally, you'll be ready to implement the changes for "Conjured" items.
 
-======================================
+# Original GR
+
 Gilded Rose Requirements Specification
-======================================
 
 Hi and welcome to team Gilded Rose. As you know, we are a small inn with a prime location in a
 prominent city ran by a friendly innkeeper named Allison. We also buy and sell only the finest goods.
@@ -36,8 +37,7 @@ We have recently signed a supplier of conjured items. This requires an update to
 Feel free to make any changes to the UpdateQuality method and add any new code as long as everything
 still works correctly. However, do not alter the Item class or Items property as those belong to the
 goblin in the corner who will insta-rage and one-shot you as he doesn't believe in shared code
-ownership (you can make the UpdateQuality method and Items property static if you like, we'll cover
-for you).
+ownership.
 
 Just for clarification, an item can never have its Quality increase above 50, however "Sulfuras" is a
 legendary item and as such its Quality is 80 and it never alters.
